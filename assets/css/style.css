@@ -1,11 +1,19 @@
-*{
-    margin:0;
-    padding:0;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body {
     font-family: Helvetica, arial, sans-serif;
     color: #39a6b2;
+}
+
+/* NAVIGATION */
+
+header{
+    padding:20px 35px;
+    background-color: #39a6b2;
 }
 header a{
     text-decoration: none;
@@ -31,12 +39,30 @@ header h1 {
     font-weight: bold;
     color: #fce138;
     margin:0;
-    background-color:#39a6b2;
     display: inline;
 }
 
-.navigation {
-    background-color: #39a6b2;
-    margin:20px 20px;
-    padding: 20px 20px;
-}
+
+ /* FOOTER */
+
+ footer{
+     background-color: #fce138;
+     width:100%;
+     padding:40px 30px; 
+ }
+
+ footer h2 {
+     display: inline;
+     color: #024e76;
+     font-size: 30px;
+     margin: 0;
+ }
+
+ footer div {
+     float: right;
+     line-height:1.5;
+     text-align: right;
+ }
+ footer a{
+     color:#024e76;
+ }
