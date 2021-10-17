@@ -43,6 +43,10 @@ body {
     margin-bottom: 15px;
 }
 
+.hero-form label{
+    margin: 0 5px;
+}
+
 
 .hero-form {
     color:#024e76;
@@ -89,6 +93,13 @@ header h1 {
     color: #fce138;
     margin:0;
     display: inline;
+}
+
+button {
+    background-color: #024e76;
+    color: #fce138;
+    padding: 15px 20px;
+    font-size: 20px;
 }
 
 
