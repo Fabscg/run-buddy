@@ -103,41 +103,15 @@ button {
 }
 
 
- /* FOOTER */
-
- footer{
-     background-color: #fce138;
-     width:100%;
-     padding:40px 30px; 
- }
-
- footer h2 {
-     display: inline;
-     color: #024e76;
-     font-size: 30px;
-     margin: 0;
- }
-
- footer div {
-     float: right;
-     line-height:1.5;
-     text-align: right;
- }
- footer a{
-     color:#024e76;
- }
  /* what we do section */
 
  .intro h2{
-     font-size: 55px;
-     color: #024e76;
-     margin-bottom: 35px;
-     padding: 0 100px 20px 100px;
-     border-bottom: 3px solid;
-     border-color:#fce138;
      text-align: center;
-     margin: auto 300px 35px 300px;
+ }
 
+ .steps {
+     text-align: center;
+     background: #fce138;
  }
 
  .intro p {
@@ -146,7 +120,75 @@ button {
      width: 80%;
      font-size: 20px;
      margin: 0 auto;
+     text-align: center;
  }
+
+
  #what-you-do {
      text-align: center;
  }
+
+ /* section meet the trainers */
+
+ .section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .primary-border {
+    border-color: #fce138;
+  }
+
+  .secondary-border {
+    border-color: #39a6b2;
+  }
+
+  .steps div{
+      margin-bottom: 80px;
+  }
+  .steps img {
+      width: 15%;
+      margin: 10px 0;
+  }
+
+  .steps h3 {
+      color:#024e76;
+      font-size: 46px;
+      margin-top: 10px;
+  }
+  .steps p {
+      color: #39a6b2;
+      font-size: 23px;
+  }
+  
+  .steps span {
+    font-size: 38px;
+  }
+
+ /* FOOTER */
+
+ footer{
+    background-color: #fce138;
+    width:100%;
+    padding:40px 30px; 
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height:1.5;
+    text-align: right;
+}
+footer a{
+    color:#024e76;
+}
