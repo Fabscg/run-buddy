@@ -254,7 +254,7 @@ button {
       font-size: 20px;
       font-style: normal;
   }
-  
+
  .contact-info div{
       display: inline-block;
       width:410px;
@@ -268,10 +268,14 @@ button {
       color:#fce138;
   }
  
-  
+  /* SECONDARY PAGE HERO */
 
-
-
+  .hero-secondary{
+      margin: 20px;
+      background-color: black;
+      font-size: 20px;
+      color: red;
+  }
 
   
 
