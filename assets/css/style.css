@@ -36,7 +36,7 @@ body {
 }
 
 .hero-cta{
-    width:35px;
+    width:35%; 
     text-align: right;
     margin:3.5%;
     color:#fff;
