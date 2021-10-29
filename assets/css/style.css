@@ -438,12 +438,19 @@ footer a{
     .hero-form button{
         width:100%
     }
-   
+
+ 
     .section-title{
         width:95%;
     }
     .intro p {
         width: 100%;
+    }
+
+    header nav ul li a{
+        display: inline;
+        justify-content: center;
+        flex:100%;
     }
     .trainer{
         flex: 0 100%;
